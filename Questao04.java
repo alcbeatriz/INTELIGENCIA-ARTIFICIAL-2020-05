@@ -1,15 +1,9 @@
-/*
- Faça um programa que leia 10 números, insira em uma pilha. O programa deve
-remover os dados da pilha e imprimi-los na tela.
-FIFO
-métodos de uma pilha
--isEmpty() verifica se a pilha ta vazia ou nao
--size()retorna o tamanho
--pop()desempilhar
--push(valor); empilha
--top()visualiza o ultimo item empilhado
- */
+
 package revisao01ia;
+/**
+ *
+ * @author beatr
+ */
 
 import java.util.Scanner;
 
