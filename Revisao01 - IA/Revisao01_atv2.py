@@ -1,3 +1,4 @@
+#2. Faça um programa que leia 10 números e os armazene em um vetor. Imprima o vetor.
 n = 10
 valor = []
 # Preenchendo o vetor de 10 posições

@@ -1,3 +1,4 @@
+#3. Faça um programa que leia e preencha uma matriz de 10x10. No final, imprima a matriz.
 n = 10
 m = 10
 valor = []
