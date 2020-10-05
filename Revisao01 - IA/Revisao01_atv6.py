@@ -13,7 +13,7 @@ class Tarefas:
        return self.prioridade
 lista=[]
 global y
-for i in range (0,5):
+for i in range (0,10):
     x=input('Digite a descrição da tarefa {}: '.format(i+1))
     y=int(input('Digite a prioridade da tarefa {}: '.format(i+1)))
     while y>5 or y<0:
@@ -22,7 +22,7 @@ for i in range (0,5):
 
     t=Tarefas(x,y)
     heapq.heappush(lista,(t.prioridade, t.descricao))
-for i in range (0,5):
+for i in range (0,10):
     print(heapq.heappop(lista))
 
 
