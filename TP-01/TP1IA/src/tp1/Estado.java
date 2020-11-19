@@ -25,9 +25,13 @@ public class Estado {
         }
     }
 
+    public Estado() {
+    }
+
     public int[][] getMatriz() {
         return matriz;
     }
+    
 
     public void setMatriz(int[][] matriz) {
         this.matriz = matriz;
@@ -61,7 +65,7 @@ public class Estado {
        
     }
     
-     boolean EhObjetivo(){
+    public boolean EhObjetivo(int mat[][]){
         int objetivo[][] = {{1,2,3},{4,5,6},{7,8,0}};
         for(int i=0; i<3; i++){
             for(int j=0; j<3; j++)
